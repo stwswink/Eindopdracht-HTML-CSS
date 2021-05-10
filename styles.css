@@ -1,0 +1,45 @@
+body{
+    background-color: darkgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.box-1{
+    border: 7px black solid;
+    padding:20px;
+    margin: 40px;
+   
+ }
+
+
+ .box-2{
+    border: 5px black dotted;
+    padding:20px;
+    margin: 40px;
+  
+ }
+
+ .box-3{
+        border: 5px black solid;
+        padding:20px;
+        margin: 40px;
+     
+ }
+
+
+
+ @media (min-width: 768px)
+ {body{
+     background-color: rgb(29, 44, 29);
+     color: rgb(191, 159, 192);
+     font-size: 14px;
+     line-height: 30px;
+}}
+
+ @media (min-width: 1024px)
+    {body{
+        background-color: rgb(105, 87, 52);
+        color: rgb(165, 199, 193);
+        font-size: 16px;
+        line-height: 20px;
+ }
+
